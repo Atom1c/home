@@ -25,13 +25,13 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
-
+"""
 TEMPLATE_DIRS = (
     '/Users/macpro/djangoenv/bin/firstapp/templates',
     '/Users/macpro/djangoenv/bin/firstapp/article/templates',
     '/Users/macpro/djangoenv/bin/firstapp/loginsys/templates',
 )
-
+"""
 
 # Application definition
 
@@ -90,5 +90,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    ('static', '/Users/macpro/djangoenv/bin/firstapp/static'),
+    ('static', '/home/rom/docs/forum/ENV/static'),
 )
